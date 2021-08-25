@@ -37,7 +37,8 @@ Powered by ip-api
 - Timezone
 - Zip Code
 # Usage
-`$ ./ip2geolocation.py
+```
+$ ./ip2geolocation.py
 usage: ipgeolocation.py [-h] [-m] [-t TARGET] [-T file] [-u User-Agent]
                         [-U file] [-g] [--noprint] [-v] [--nolog] [-x PROXY]
                         [-X file] [-e file] [-ec file] [-ex file]
@@ -71,5 +72,6 @@ files with this option.
                         A list of proxies, each proxy url in new line.
   -e file, --txt file   Export results.
   -ec file, --csv file  Export results in CSV format.
-  -ex file, --xml file  Export results in XML format.`
+  -ex file, --xml file  Export results in XML format.
+  ```
   
