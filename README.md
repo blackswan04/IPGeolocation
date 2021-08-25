@@ -1,5 +1,5 @@
 # IPGeolocation
-**=============================================**
+**=============================================**<br>
 A tool to retrieve IP Geolocation information
 Powered by ip-api
 ## Requirements
@@ -7,7 +7,7 @@ Powered by ip-api
 - termcolor<br>
 - colorama
 ## Download/Installation
-> `$git clone https://github.com/maldevel/IPGeoLocation`<br>
+> `$git clone https://github.com/blackswan04/IPGeoLocation`<br>
 > `$pip3 install -r requirements.txt --user`<br>
 ### if pip3 is missing:
 >`$apt-get install python3-setuptools `<br>
