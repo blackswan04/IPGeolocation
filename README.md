@@ -8,7 +8,7 @@ Python 3.x
 termcolor
 colorama
 ## Download/Installation
-=>git clone https://github.com/maldevel/IPGeoLocation
+=>git clone https://github.com/maldevel/IPGeoLocation<br>
 =>pip3 install -r requirements.txt --user
 ### if pip3 is missing:
 
