@@ -77,46 +77,46 @@ files with this option.
 # Examples
 **Retrieve your IP Geolocation**
 
-- ./ip2geolocation.py -m
+- ./ip2geolocation.py -m<br>
 **Retrieve IP Geolocation**
 
-- ./ip2geolocation.py -t x.x.x.x
+- ./ip2geolocation.py -t x.x.x.x<br>
 **Retrieve Domain Geolocation**
 
-- ./ip2geolocation.py -t example.com
+- ./ip2geolocation.py -t example.com<br>
 **Do not save .log files**
 
-- ./ip2geolocation.py -t example.com --nolog
+- ./ip2geolocation.py -t example.com --nolog<br>
 **Custom User Agent string**
 
-- ./ip2geolocation.py -t x.x.x.x -u "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"
+- ./ip2geolocation.py -t x.x.x.x -u "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko"<br>
 **Using Proxy**
 
-- ./ip2geolocation.py -t x.x.x.x -x http://127.0.0.1:8080
+- ./ip2geolocation.py -t x.x.x.x -x http://127.0.0.1:8080<br>
 **Using random Proxy**
 
-- ./ip2geolocation.py -t x.x.x.x -X /path/to/proxies/filename.txt
+- ./ip2geolocation.py -t x.x.x.x -X /path/to/proxies/filename.txt<br>
 **Pick User-Agent string randomly**
 
-- ./ip2geolocation.py -t x.x.x.x -U /path/to/user/agent/strings/filename.txt
+- ./ip2geolocation.py -t x.x.x.x -U /path/to/user/agent/strings/filename.txt<br>
 **Retrieve IP geolocation and open location in Google maps with default browser**
 
-- ./ip2geolocation.py -t x.x.x.x -g
+- ./ip2geolocation.py -t x.x.x.x -g<br>
 **Export results to CSV file**
 
-- ./ip2geolocation.py -t x.x.x.x --csv /path/to/results.csv
+- ./ip2geolocation.py -t x.x.x.x --csv /path/to/results.csv<br>
 **Export results to XML file**
 
-- ./ip2geolocation.py -t x.x.x.x --xml /path/to/results.xml
+- ./ip2geolocation.py -t x.x.x.x --xml /path/to/results.xml<br>
 **Export results to TXT file**
 
-- ./ip2geolocation.py -t x.x.x.x -e /path/to/results.txt
+- ./ip2geolocation.py -t x.x.x.x -e /path/to/results.txt<br>
 **Retrieve IP Geolocation for many targets**
 
-- ./ip2geolocation.py -T /path/to/targets/targets.txt
+- ./ip2geolocation.py -T /path/to/targets/targets.txt<br>
 **Retrieve IP Geolocation for many targets and export results to xml**
 
-- ./ip2geolocation.py -T /path/to/targets/targets.txt --xml /path/to/results.xml
+- ./ip2geolocation.py -T /path/to/targets/targets.txt --xml /path/to/results.xml<br>
 **Do not print results to terminal**
 
-- ./ip2geolocation.py -m -e /path/to/results.txt --noprint
+- ./ip2geolocation.py -m -e /path/to/results.txt --noprint<br>
